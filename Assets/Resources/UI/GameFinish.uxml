@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="BackGround" style="flex-grow: 1; background-color: rgba(151, 151, 151, 0.39); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+        <ui:VisualElement name="Front" style="flex-grow: 1; background-color: rgb(112, 161, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 6%; margin-right: 6%; margin-bottom: 6%; margin-left: 6%; text-shadow: 0 0 0 rgba(0, 0, 0, 0); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+            <ui:VisualElement name="WIN" style="flex-grow: 1; justify-content: center; align-items: center; background-color: rgba(30, 144, 255, 0); margin-top: 5%; margin-right: 5%; margin-bottom: 5%; margin-left: 5%; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+                <ui:Label tabindex="-1" text="You WIN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Finish" style="-unity-font: url(&apos;project://database/Assets/Art/Font/ZCOOLQingKeHuangYou-Regular.ttf?fileID=12800000&amp;guid=e70be7cca37903748bbe48831c64dab6&amp;type=3#ZCOOLQingKeHuangYou-Regular&apos;); -unity-font-style: bold; font-size: 60px; color: rgb(206, 214, 224); -unity-text-align: upper-center; -unity-text-outline-width: 3px; -unity-text-outline-color: rgb(87, 96, 111); text-shadow: 2px 2px 10px rgb(87, 96, 111);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Present" style="flex-grow: 1; justify-content: center; align-items: center;">
+                <ui:Label tabindex="-1" text="Score:00.00Sec" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PresentScore" style="color: rgb(223, 228, 234); -unity-text-outline-color: rgb(47, 53, 66); -unity-text-outline-width: 0.5px; -unity-font-style: bold; text-shadow: 1px 1px 2px rgba(47, 53, 66, 0); -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Best" style="flex-grow: 1; align-items: center; justify-content: center;">
+                <ui:Label tabindex="-1" text="Best:00.00Sec" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BestScore" style="-unity-text-outline-color: rgb(47, 53, 66); -unity-text-outline-width: 0.5px; -unity-text-align: upper-center; color: rgb(223, 228, 234); -unity-font-style: bold; text-shadow: 1px 1px 2px rgba(47, 53, 66, 0); background-color: rgba(0, 0, 0, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center;">
+                <ui:Button text="Restart" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RestartBtn" style="height: auto; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
